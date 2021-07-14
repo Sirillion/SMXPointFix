@@ -1,0 +1,22 @@
+<SMXPointFix file="quests.xml">
+
+<!-- 	// SMX // Skill Point Fixer -->
+
+		<append xpath="/quests">
+			<quest id="quest_smxpointfix">
+				<property name="group_name_key" value="quest_BasicSurvival"/>
+				<property name="name_key" value="SMX Point Fixer"/>
+				<property name="subtitle_key" value="Retrieve lost skillpoints!"/>
+				<property name="description_key" value="Run this mod ONCE to retrieve any lost skillpoints.\n\n[AF1E19]*[-] Calculate the missing points! (Your level * 1, -1 first level, +4 starter quest.)\n[AF1E19]*[-] Change the value for the reward type entry in the quests.xml file.\n[AF1E19]*[-] Restart your save to update!\n[AF1E19]*[-] Complete the quest!\n\nYou now have your lost skillpoints back. Enjoy!\n\n-Sirillion"/>
+				<property name="icon" value="ui_game_symbol_skills"/>
+				<property name="category_key" value="quest"/>
+				<property name="difficulty" value="veryeasy"/>
+				<property name="shareable" value="false"/>
+
+				<objective type="Craft" id="campfire" value="1" />
+
+				<reward type="SkillPoints" value="39" />
+			</quest>
+		</append>
+
+</SMXPointFix>
