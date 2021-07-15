@@ -15,7 +15,7 @@
 
 				<objective type="Craft" id="campfire" value="1" />
 
-				<reward type="SkillPoints" value="39" />
+				<reward type="SkillPoints" value="0" />
 			</quest>
 		</append>
 
